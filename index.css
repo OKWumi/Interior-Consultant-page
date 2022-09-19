@@ -7,7 +7,7 @@ body {
 	 background-color: rgb(23, 22, 22);
 }
 main {
-		margin: 15px 0px 70px 15px;
+		margin: 15px 0px 70px 20px;
 align-items: center;				
 }
 .navbar {
@@ -88,7 +88,7 @@ button {
 	 font-family: garamond, serif;
 		font-weight: 400;
 		margin-bottom: 10%;
-		font-size: 43px;
+		font-size: 37px;
 }
 .info p {
 		font-family: verdana, serif;				
@@ -204,6 +204,9 @@ padding: 0;
 width: 100%;
 		grid-template-areas: "info interiordeco";
 }
+.info h1 {
+		font-size: 43px;
+}	
 .info {
                 width: 80%;
 }
