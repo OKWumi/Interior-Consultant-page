@@ -52,7 +52,7 @@ button {
 		margin-top: 20px;
 	padding-top: 170px;
 	        padding-bottom: 170px;
-	background-color: rgba(0, 0, 0, 0.6);
+	background-color: rgba(0, 0, 0, 0.9);
 	position: fixed;
 }
 .navbar-links ul {
@@ -113,7 +113,7 @@ button {
 		align-items: center;
 		background-color: rgb(23, 22, 22);
 		color: white;
-		position: sticky;
+		position: absolute;
 		width: 180px;
 		height: 55px;
 		margin: -55px 0px 0px 160px;
@@ -179,6 +179,10 @@ button {
 .navbar-links {
 		display: flex;
 		width: 100%;
+	position: relative;
+	padding-top: 20px;
+	        padding-bottom: 20px;
+	background-color: rgb(23, 22, 22);
 }
 .navbar-links ul {
 margin: 0;
