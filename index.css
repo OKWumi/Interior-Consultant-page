@@ -50,6 +50,10 @@ button {
 		display: none;
 		width: 100%;	      
 		margin-top: 20px;
+	padding: 20px;
+	padding-top: 100px;
+	        padding-bottom: 100px;
+	background-color: rgba(0, 0, 0, 0.1);	 
 }
 .navbar-links ul {
    margin: 0;
@@ -58,12 +62,11 @@ button {
 	 flex-direction: column;
 	 width: 100%;
 	 height: 500%;
-	 background-color: rgba(0, 0, 0, 0.1);	 
+	 
 }
 .navbar-links li {		
     padding: 10px;
-	        padding-top: 100px;
-	        padding-botttom: 100px;
+	        
 		list-style: none;
 		text-align: center;
 }
